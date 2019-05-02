@@ -17,7 +17,7 @@ int main()
   int i, n;
   cin >>n;
   char a[n];
-  for(i=0;i<n;i++) cin <<a[i];
+  for(i=0;i<n;i++) cin >> a[i];
   possibleSubsets(a, n);
   return 0;
 }
